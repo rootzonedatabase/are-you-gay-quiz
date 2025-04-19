@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+
+    <style>
+        #theend {
+            font-family: "Great Vibes", cursive;
+            font-weight: 400;
+            font-style: normal;
+            font-size: 300px;
+        }
+    </style>
+</head>
+<body>
+    <div id="start">
+        are you gay quiz
+        <button onclick="document.getElementById('start').style.display = 'none'; document.getElementById('realtest').style.display = 'block';">begin</button>
+    </div>
+    <div id="realtest" style="display: none;">
+        are you gay?
+        <button onclick="document.getElementById('realtest').style.display = 'none'; document.getElementById('res_truth').style.display = 'block';">yes i am</button>
+        <button onclick="document.getElementById('realtest').style.display = 'none'; document.getElementById('res_liar').style.display = 'block';">no im not</button>
+        <!-- <button onclick="document.getElementById('start').style.display = 'none'; ">begin</button> -->
+    </div>
+    <div id="res_truth" style="display: none;">
+        youre gay !
+        <button onclick="document.getElementById('res_truth').style.display = 'none'; document.getElementById('res_wait').style.display = 'block';">wait i made a mistake</button>
+    </div>
+    <div id="res_wait" style="display: none;">
+        fag
+
+        <br><br><i id="theend">the end</i>
+    </div>
+    <div id="res_liar" style="display: none;">
+        youre gay ! youre just lying !
+        <button onclick="document.getElementById('res_liar').style.display = 'none'; document.getElementById('imnotlying').style.display = 'block';">no i not !!!!!</button>
+    </div>
+    <div id="imnotlying" style="display: none;">
+        still gay
+        <button onclick="document.getElementById('imnotlying').style.display = 'none'; document.getElementById('nuh').style.display = 'block';">nuh uh</button>
+    </div>
+    <div id="nuh" style="display: none;">
+        yuh uh
+
+        <br><br><i id="theend">the end</i>
+    </div>
+</body>
+</html>
