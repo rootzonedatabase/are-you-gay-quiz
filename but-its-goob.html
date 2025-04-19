@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gooooooooob</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+
+    <style>
+        #theend {
+            font-family: "Great Vibes", cursive;
+            font-weight: 400;
+            font-style: normal;
+            font-size: 300px;
+        }
+    </style>
+</head>
+<body>
+    <div id="start">
+        are you goob quiz
+        <button onclick="document.getElementById('start').style.display = 'none'; document.getElementById('realtest').style.display = 'block';">begin</button>
+    </div>
+    <div id="realtest" style="display: none;">
+        are you goob?
+        <button onclick="document.getElementById('realtest').style.display = 'none'; document.getElementById('res_truth').style.display = 'block';">yes i am</button>
+        <button onclick="document.getElementById('realtest').style.display = 'none'; document.getElementById('res_liar').style.display = 'block';">no im not</button>
+        <!-- <button onclick="document.getElementById('start').style.display = 'none'; ">begin</button> -->
+    </div>
+    <div id="res_truth" style="display: none;">
+        youre goob !
+        <br><br><i id="theend">the end 🥕🥕🥕🥕🥕🥕🥕🥕🥕🥕🥕🥕🥕🥕🥕🥕🥕🥕🥕🥕🥕</i>
+    </div>
+    <div id="res_liar" style="display: none;">
+        youre not goob maybe
+        <br><br><i id="theend">the end 🦠🦠🦠🦠🦠🦠🦠🦠🦠🦠🦠🦠🦠🦠🦠🦠🦠🦠🦠🦠🦠🦠</i>
+    </div>
+</body>
+</html>
